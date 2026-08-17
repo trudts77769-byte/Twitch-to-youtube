@@ -1,0 +1,19 @@
+# Downloaded VODs (never commit video files)
+downloads/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials / secrets - never commit these
+.env
+*.env
+client_secret*.json
+token*.json
+credentials*.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
