@@ -3,6 +3,11 @@
 Automatically re-uploads your Twitch VODs (past broadcasts) to YouTube on a
 schedule using GitHub Actions.
 
+> **Also in this repo:** [`docs/DAILY_TREND_STORY.md`](docs/DAILY_TREND_STORY.md) —
+> a second automation that publishes a ~2:30 narrated story video to YouTube
+> every morning at 7 AM Eastern, based on the previous day's Google trending
+> searches.
+
 ## How it works
 
 1. A scheduled GitHub Actions workflow (`.github/workflows/twitch-to-youtube.yml`)
