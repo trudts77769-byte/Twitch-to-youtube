@@ -1,6 +1,15 @@
 # Downloaded VODs (never commit video files)
 downloads/
 
+# Generated Shorts output (videos are large)
+shorts_output/*.mp4
+shorts_output/*.m4a
+shorts_output/*.mp3
+shorts_output/*.wav
+shorts_output/short_*/
+shorts_output/voice_parts/
+!shorts_output/.gitkeep
+
 # Python
 __pycache__/
 *.py[cod]
@@ -17,3 +26,4 @@ credentials*.json
 # OS / editor noise
 .DS_Store
 Thumbs.db
+shorts_output/*.json
